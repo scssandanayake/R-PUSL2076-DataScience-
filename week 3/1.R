@@ -1,0 +1,9 @@
+library(tidyverse)
+data<-iris
+?iris
+summary(data)
+View(iris)
+data.frame()
+data
+head(data)
+plot(iris)
