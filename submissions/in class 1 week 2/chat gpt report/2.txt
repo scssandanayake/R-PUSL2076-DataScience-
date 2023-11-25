@@ -1,0 +1,21 @@
+Based on the output you provided from linear regression models, it appears that you have conducted two separate regression analyses, one for predicting resting blood pressure and the other for predicting serum cholesterol level, using age as the predictor variable. Here's what you can conclude from the coefficients:
+
+1)For the resting_blood_pressure model (regmodel1):
+
+- The intercept is 102.1998345, which represents the estimated resting blood pressure when age is 0 (which may not be meaningful in this context, as age is likely never 0 in your dataset).
+
+- The coefficient for age is 0.5354184. This means that for each one-unit increase in age, the estimated resting blood pressure is expected to increase by approximately 0.54 units.
+
+2)For the serum_cholesterol model (regmodel2):
+
+- The intercept is 181.691994, which represents the estimated serum cholesterol level when age is 0 (which may not be meaningful).
+
+- The coefficient for age is 1.248633. This means that for each one-unit increase in age, the estimated serum cholesterol level is expected to increase by approximately 1.25 units.
+
+##In summary:
+
+- In the resting_blood_pressure model, there is a positive relationship between age and resting blood pressure. As age increases, resting blood pressure tends to increase as well.
+
+- In the serum_cholesterol model, there is also a positive relationship between age and serum cholesterol level. As age increases, serum cholesterol level tends to increase.
+
+It's important to note that these conclusions are based solely on the relationships observed in your dataset. Other factors may also influence resting blood pressure and serum cholesterol levels, and it's essential to consider the context and potential confounding variables when interpreting these results. Additionally, the interpretation of the intercept when age is 0 may not be meaningful, as it is likely outside the range of observed ages in your dataset.
