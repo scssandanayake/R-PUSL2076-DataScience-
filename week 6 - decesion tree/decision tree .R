@@ -1,9 +1,9 @@
 #packages
-install.packages("ISLR") #orange juice dataset
-install.packages("caret") #workflow
-install.packages("rpart.plot") #draw the disision tree
-install.packages("tidyverse")
-install.packages("skimr") #summary skewness
+#install.packages("ISLR") #orange juice dataset
+#install.packages("caret") #workflow
+#install.packages("rpart.plot") #draw the disision tree
+#install.packages("tidyverse")
+#install.packages("skimr") #summary statistical analysis
 
 library(ISLR)
 library(caret)
