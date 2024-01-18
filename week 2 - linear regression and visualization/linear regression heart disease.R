@@ -1,6 +1,6 @@
 library(ggplot2)
 library(dplyr)
-data <- read.csv("D:\\R\\week 2\\heart disease\\heart_disease.csv")
+data <- read.csv("D:\\My R\\R-PUSL2076-DataScience-\\week 2\\heart disease data set\\heart_disease.csv")
 summary(data)
 str(data)
 
